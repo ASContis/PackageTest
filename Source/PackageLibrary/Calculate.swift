@@ -9,6 +9,6 @@ import Foundation
 
 public class Calculate {
     public static func add(a: Int, b:Int) -> Int {
-        return a + b
+        return Process.process(a: a, b: b)
     }
 }
