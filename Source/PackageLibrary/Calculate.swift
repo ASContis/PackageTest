@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Dependant
 
 public class Calculate {
     public static func add(a: Int, b:Int) -> Int {

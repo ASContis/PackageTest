@@ -15,10 +15,10 @@
 		679B694928D866890046906C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679B694728D866890046906C /* LaunchScreen.storyboard */; };
 		679B695F28D867900046906C /* PackageLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679B695928D867900046906C /* PackageLibrary.framework */; };
 		679B696028D867900046906C /* PackageLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 679B695928D867900046906C /* PackageLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		679B697328D875340046906C /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679B697228D875340046906C /* Calculate.swift */; };
 		679B697F28D875AB0046906C /* Dependant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679B697928D875AB0046906C /* Dependant.framework */; };
 		679B698028D875AB0046906C /* Dependant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 679B697928D875AB0046906C /* Dependant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		679B698928D8772E0046906C /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679B698628D875ED0046906C /* Process.swift */; };
+		679B698A28D879740046906C /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679B697228D875340046906C /* Calculate.swift */; };
+		679B698B28D879780046906C /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679B698628D875ED0046906C /* Process.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,8 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				679B697328D875340046906C /* Calculate.swift in Sources */,
-				679B698928D8772E0046906C /* Process.swift in Sources */,
 				679B694128D866880046906C /* ViewController.swift in Sources */,
 				679B693D28D866880046906C /* AppDelegate.swift in Sources */,
 				679B693F28D866880046906C /* SceneDelegate.swift in Sources */,
@@ -320,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679B698A28D879740046906C /* Calculate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679B698B28D879780046906C /* Process.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +482,7 @@
 		679B694E28D866890046906C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +510,7 @@
 		679B694F28D866890046906C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
